@@ -37,6 +37,7 @@ class _IndiaState extends State<India> {
     //   ..load()
     //   ..show();
     super.initState();
+    getData();
   }
 
   @override

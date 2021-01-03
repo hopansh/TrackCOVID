@@ -37,6 +37,7 @@ class _USState extends State<US> {
     //   ..load()
     //   ..show();
     super.initState();
+    getData();
   }
 
   @override
