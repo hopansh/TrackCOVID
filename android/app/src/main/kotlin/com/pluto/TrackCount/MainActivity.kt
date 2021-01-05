@@ -1,4 +1,4 @@
-package com.pluto.TrackCOVID
+package com.pluto.TrackCount
 
 import io.flutter.embedding.android.FlutterActivity
 

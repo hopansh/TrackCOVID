@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "327514260686",
+    "project_id": "trackcount-c5856",
+    "storage_bucket": "trackcount-c5856.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327514260686:android:261efb4e57e93011d33c9f",
+        "android_client_info": {
+          "package_name": "com.pluto.TrackCount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327514260686-hd6i0rpfl60i1n9p0af7sad1c3cspsdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pluto.TrackCount",
+            "certificate_hash": "008fda2635a41d01abcc561f05aa0d188d900576"
+          }
+        },
+        {
+          "client_id": "327514260686-nrlpd3jve312ra4a8tdbj8oegh4hu6ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKgZP7KzzYlAtYhxD-a6eGhoMnHRYAo_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327514260686-nrlpd3jve312ra4a8tdbj8oegh4hu6ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

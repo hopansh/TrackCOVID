@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+// import 'package:firebase_core/firebase_core.dart';
 // import 'package:firebase_admob/firebase_admob.dart';
 
 class India extends StatefulWidget {
@@ -31,11 +32,6 @@ class _IndiaState extends State<India> {
 
   @override
   void initState() {
-    // FirebaseAdMob.instance.initialize(appId: BannerAd.testAdUnitId);
-    // //Change appId With Admob Id
-    // _interstitialAd = createInterstitialAd()
-    //   ..load()
-    //   ..show();
     super.initState();
     getData();
   }
@@ -48,6 +44,13 @@ class _IndiaState extends State<India> {
 
   @override
   Widget build(BuildContext context) {
+    // FirebaseAdMob.instance
+    //     .initialize(appId: "ca-app-pub-7239841158106431~3507060620")
+    //     .then((response) {
+    //   _interstitialAd
+    //     ..load()
+    //     ..show();
+    // });
     var width = MediaQuery.of(context).size.width;
     var height = MediaQuery.of(context).size.height;
     return Scaffold(
@@ -151,21 +154,29 @@ class _IndiaState extends State<India> {
         ),
       ),
     );
-  }
+    // }
 
-  // MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-  //   keywords: <String>['Maths', 'calculator', 'booth', 'boothalgorithm'],
-  //   contentUrl: 'https://flutter.io',
-  //   childDirected: false,
-  //   testDevices: <String>[], // Android emulators are considered test devices
-  // );
-  // InterstitialAd createInterstitialAd() {
-  //   return InterstitialAd(
-  //       adUnitId: 'ca-app-pub-7239841158106431/9366085489',
-  //       //Change Interstitial AdUnitId with Admob ID
-  //       targetingInfo: targetingInfo,
-  //       listener: (MobileAdEvent event) {
-  //         print("IntersttialAd $event");
-  //       });
-  // }
+    // InterstitialAd createInterstitialAd() {
+    //   return InterstitialAd(
+    //       adUnitId: InterstitialAd.testAdUnitId,
+    //       //Change Interstitial AdUnitId with Admob ID
+    //       targetingInfo: targetingInfo,
+    //       listener: (MobileAdEvent event) {
+    //         print("IntersttialAd $event");
+    //       });
+    // }
+
+    // MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    //   keywords: <String>[
+    //     'flutterio',
+    //     'COVID',
+    //     'COVID COUNT',
+    //     'COVID STATUS',
+    //     'COVID CASES'
+    //   ],
+    //   contentUrl: 'https://flutter.io',
+    //   childDirected: false,
+    //   testDevices: <String>[], // Android emulators are considered test devices
+    // );
+  }
 }

@@ -1,7 +1,7 @@
-import 'package:TrackCOVID/Screens/About.dart';
-import 'package:TrackCOVID/Screens/Home.dart';
-import 'package:TrackCOVID/Screens/India.dart';
-import 'package:TrackCOVID/Screens/US.dart';
+import 'package:TrackCount/Screens/About.dart';
+import 'package:TrackCount/Screens/Home.dart';
+import 'package:TrackCount/Screens/India.dart';
+import 'package:TrackCount/Screens/US.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -13,7 +13,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Map<String, Object>> _pages = [
-    {'page': Home(), 'title': "TRACK COVID"},
+    {'page': Home(), 'title': "TRACK Count"},
     {'page': India(), 'title': "India"},
     {'page': US(), 'title': "US"},
   ];
